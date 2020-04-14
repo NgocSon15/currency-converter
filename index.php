@@ -10,7 +10,7 @@
 			//include('lib/database.php');
 			include('modules/banner.php');
 			include('modules/heading.php');
-			//include('modules/converter.php');
+			include('modules/converter.php');
 		?>
 	</div>
 </body>

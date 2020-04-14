@@ -19,10 +19,10 @@
 				<option value="VND" data-id = "4">Việt Nam Đồng (VND)</option>
 			</select>
 		</div>
-		<div>
+		<!-- <div>
 			<?php 
-				include("output.php");
+				//include("output.php");
 			?>
-		</div>
+		</div> -->
 	</div>
 </div>
