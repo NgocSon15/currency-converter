@@ -7,7 +7,7 @@
 <body>
 	<div class="wrapper">
 		<?php
-			//include('lib/database.php');
+			include('lib/database.php');
 			include('modules/banner.php');
 			include('modules/heading.php');
 			include('modules/converter.php');
