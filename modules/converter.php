@@ -20,12 +20,12 @@
 			</select>
 		</div>
 		<div>
-		<!--	<?php 
-			//	include("output.php");
-			?> -->
-			<form>
+			<?php 
+				include("output.php");
+			?>
+			<!-- <form>
 				<input type="text" id="to-text" class="text" name="output-text">
-			</form>
+			</form> -->
 		</div>
 	</div>
 </div>
