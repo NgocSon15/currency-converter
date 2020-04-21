@@ -1,31 +1,33 @@
 <div class="converter">
-	<div class="from">
-		<div id="from-list" class="list">
-			<select>
-				<option value="USD" data-id = "2">Đô-la Mỹ (USD)</option>
-			</select>
-		</div>
-		<div>
-			<form action="modules/input.php" method="post" enctype="multipart/form-data">
+	<form action="modules/input.php" method="post" enctype="multipart/form-data">
+		<div class="from">
+			<div id="from-list" class="list">
+				<select name="input-currency">
+					<option value="USD" data-id = "2">Đô-la Mỹ (USD)</option><br>
+					<option value="VND" data-id = "1">Việt Nam Đồng (VND)</option><br>
+					<option value="EUR" data-id = "3">Euro (EUR)</option><br>
+				</select>
+			</div>
+			<div>
 				<input type="text" id="from-text" class="text" name="input-text">
-				<input type="submit" name="submit" value="convert">
-			</form>
+			</div>
 		</div>
-	</div>
 
-	<div class="to">
-		<div id="to-list" class="list">
-			<select>
-				<option value="VND" data-id = "4">Việt Nam Đồng (VND)</option>
-			</select>
+		<input type="submit" name="submit-button" value="Convert">
+
+		<div class="to">
+			<div id="to-list" class="list">
+				<select name="output-currency">
+					<option value="VND" data-id = "1">Việt Nam Đồng (VND)</option><br>
+					<option value="USD" data-id = "2">Đô-la Mỹ (USD)</option><br>
+					<option value="EUR" data-id = "3">Euro (EUR)</option>
+				</select>
+			</div>
+			<div>
+				<?php 
+					include("output.php");
+				?>
+			</div>
 		</div>
-		<div>
-			<?php 
-				include("output.php");
-			?>
-			<!-- <form>
-				<input type="text" id="to-text" class="text" name="output-text">
-			</form> -->
-		</div>
-	</div>
+	</form>
 </div>
