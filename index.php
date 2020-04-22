@@ -7,6 +7,7 @@
 <body>
 	<div class="wrapper">
 		<?php
+			include('modules/input.php');
 			include('lib/database.php');
 			include('modules/banner.php');
 			include('modules/heading.php');

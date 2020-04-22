@@ -5,11 +5,11 @@
 	<?php
 	while($dong=mysqli_fetch_array($run)){
 	?>
-		<output>
-			<?php 
-				echo $dong['amount2'] 
-			?>		
-		</output>	
+		<output> 
+			<?php
+				echo $dong['amount2'];
+		 	?>	
+		</output>
 	<?php
 	}
 	?>
