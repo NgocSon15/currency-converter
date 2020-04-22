@@ -20,7 +20,7 @@
 				<select name="output-currency">
 					<option value="VND" data-id = "1">Việt Nam Đồng (VND)</option>
 					<option value="USD" data-id = "2" <?php if($currency2 == "USD") echo "selected" ?> >Đô-la Mỹ (USD)</option>
-					<option value="EUR" data-id = "3" <?php if($currency2 == "VND") echo "selected" ?> >Euro (EUR)</option>
+					<option value="EUR" data-id = "3" <?php if($currency2 == "EUR") echo "selected" ?> >Euro (EUR)</option>
 				</select>
 			</div>
 			<div>
