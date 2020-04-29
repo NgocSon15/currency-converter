@@ -52,3 +52,18 @@
 	border:1px inset;
 	background: white;
 }
+
+.show_table{
+	width: 290px;
+	margin: auto;
+	margin-top: 600px;
+	text-align: center;
+	border: solid blue;
+
+}
+.h1{
+	background: #009688;
+	color: #FFF;
+	text-align: center;
+	
+}

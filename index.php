@@ -12,6 +12,7 @@
 			include('modules/banner.php');
 			include('modules/heading.php');
 			include('modules/converter.php');
+			include('modules/showMoney.php');
 		?>
 	</div>
 </body>
