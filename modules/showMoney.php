@@ -10,13 +10,7 @@
 			</tr>	
 		</thead>
 		<tbody>
-			<?php
-			<tr>
-				<td>
-					
-				</td>
-			</tr>
-			?>
+		
 		</tbody>
 	</table>
 </div>
