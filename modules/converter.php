@@ -13,7 +13,7 @@
 			</div>
 		</div>
 
-		<input type="submit" name="submit-button" value="Convert" class="button">
+		<input type="submit" name="submit-button" value="Chuyển" class="button">
 
 		<div class="to">
 			<div id="to-list" class="list">
