@@ -20,13 +20,13 @@
 .from{
 	background:antiquewhite;
 	float: left;
-	width:200px;
+	width:205px;
 	height:120px;
 }
 .to{
 	background-color: antiquewhite;
 	float: right;
-	width: 200px;
+	width: 205px;
 	height: 120px;
 	margin-left: 50px;
 }
