@@ -5,7 +5,7 @@
 			<tr>
 				<th>STT</th>
 				<th>Quốc Gia </th>
-				<th>Đồng</th>
+				<th>Đơn vị tiền</th>
 				<th>Giá đổi sang đồng VND</th>
 			</tr>	
 			<?php
