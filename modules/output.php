@@ -1,16 +1,18 @@
-<?php
-	$run=mysqli_query($conn, "select * from converter");
-?>
-<form class="output">
+<div>
 	<?php
-	while($dong=mysqli_fetch_array($run)){
+		$run=mysqli_query($conn, "select amount2 from converter");
 	?>
-		<output> 
-			<?php
-				echo $dong['amount2'];
-		 	?>	
-		</output>
-	<?php
-	}
-	?>
-</form>
+	<form type="text" class="text">
+		<?php
+		while($dong=mysqli_fetch_array($run)){
+		?>
+			<output> 
+				<?php
+					echo $dong['amount2'];
+			 	?>	
+			</output>
+		<?php
+		}
+		?>
+	</form>
+</div>

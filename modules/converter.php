@@ -51,11 +51,9 @@
 					<option value="RUB" <?php if($currency2 == "RUB") echo "selected" ?> >Đồng Rúp Nga (RUB)</option>
 				</select>
 			</div>
-			<div>
-				<?php 
+			<?php 
 					include("output.php");
-				?>
-			</div>
+			?>
 		</div>
 	</form>
 </div>
