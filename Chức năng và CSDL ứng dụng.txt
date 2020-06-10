@@ -1,0 +1,19 @@
+Chức năng của ứng dụng:
+- Tính toán và chuyển đổi 1 lượng tiền từ đơn vị này sang đơn vị khác
+- Đưa thông tin về tỉ giá của các đơn vị tiền
+CSDL của ứng dụng:
+	CSDL gồm có 2 bảng: converter và ti_gia. Trong đó:
+	Bảng Converter dùng để lưu thông tin về phiên chuyển đổi tiền hiện tại bao gồm mã quốc gia cần
+chuyển, mã quốc gia đã chuyển, đơn vị tiền cần chuyển, đơn vị tiền đã chuyển, số tiền cần chuyển, số tiền đã chuyển. Các cột:
+	- countryid1
+	- currency1
+	- amount1
+	- countryid2
+	- currency2
+	- amount2
+	Bảng ti_gia dùng để lưu trữ thông tin về các quốc gia, đơn vị tiền của chúng và tỉ giá đổi sang VND.
+Các cột:
+	- countryid
+	- country_name
+	- currency
+	- ti_gia
