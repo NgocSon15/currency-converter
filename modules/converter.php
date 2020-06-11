@@ -1,8 +1,9 @@
-<div class="converter">
+<div class="converter">	
 	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>" method="post" enctype="multipart/form-data">
+		<div class="box">
 		<div class="from">
 			<div id="from-list" class="list">
-				<select name="input-currency">
+				<select class="choose" name="input-currency">
 					<option value="USD">Đô-la Mỹ (USD)</option>
 					<option value="VND" <?php if($currency1 == "VND") echo "selected" ?> >Việt Nam Đồng (VND)</option>
 					<option value="EUR" <?php if($currency1 == "EUR") echo "selected" ?> >Euro (EUR)</option>
@@ -27,11 +28,11 @@
 			</div>
 		</div>
 
-		<input type="submit" name="submit-button" value="Chuyển" class="button">
+		<div class="centerBox"><input type="submit" name="submit-button" value="CHUYỂN" class="button"></div>
 
 		<div class="to">
 			<div id="to-list" class="list">
-				<select name="output-currency">
+				<select class="choose" name="output-currency">
 					<option value="VND">Việt Nam Đồng (VND)</option>
 					<option value="USD" <?php if($currency2 == "USD") echo "selected" ?> >Đô-la Mỹ (USD)</option>
 					<option value="EUR" <?php if($currency2 == "EUR") echo "selected" ?> >Euro (EUR)</option>
@@ -54,6 +55,7 @@
 			<?php 
 					include("output.php");
 			?>
+		</div>
 		</div>
 	</form>
 </div>

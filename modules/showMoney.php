@@ -1,7 +1,7 @@
 
 <div class="show_table">
 		<h1 class="h1">Bảng tỷ giá tiền tệ</h1>
-		<table border="1px">
+		<table border="1px" style="border-collapse: collapse;">
 			<tr>
 				<th>STT</th>
 				<th>Quốc Gia </th>
