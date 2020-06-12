@@ -1,11 +1,7 @@
 .body{
 	background-color: #00FFEA;
 }
-/*.wrapper{
-	width:1000px;
-	height: 600px;
-	margin: auto;
-}*/
+
 .header{
 	width:60%;
 	height: 200px;
@@ -17,8 +13,11 @@
 .box{
 	
 	display: flex;
-	width:498px;
+	/*width:828px;*/
 	height:120px;
+	/*margin: auto;*/
+	align-items: center;
+	justify-content: center;
 }
 .from, .to{
 	
@@ -36,8 +35,7 @@
    border: 1px solid #ccc;
    color: white;
    margin-bottom: 10px;
- 
-   
+
 }
 .heading{
 
@@ -61,31 +59,38 @@
   border: none;
   color: white;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 4px;
   text-decoration: none;
-  display: inline-block;
+  height: 25px;	
   font-size: 16px;
   margin: 4px 4px;
-  margin-top: 50px;
+  margin-top: 80px;
   cursor: pointer;
 
 }
+.button:hover{
+	background-color: Midnightblue;
+}
 .text{
 	width: 198px;
-	border:1px inset;
-	color: black;
-	line-height: 60px;
+	border:1px ridge;
+	/*color: black;*/
+	line-height: 50px;
 	background: #E6E6FA;
+
 }
 
 .show_table{
 	width: 330px;
-	margin-left: 500px;
-
-	background: #E6E6FA;
+	/*margin-left: 500px;*/
+	/*background: #E6E6FA;*/
+	margin: auto;
 }
 .h1{
 	background: #1E90FF;
 	color: #FFF;
 	text-align: center;	
+}
+.tb{
+	background: #E6E6FA;
 }
