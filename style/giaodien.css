@@ -84,12 +84,13 @@
 	background-color: Midnightblue;
 }
 .textclass{
-	width: 340px;
+	width: 320px;
 	border:1px ridge;
 	/*color: black;*/
 	line-height: 100px;
 	font-size: 40px;
 	background-color: #E6E6FA;
+	padding-left: 25px;
 }
 
 .show_table{
