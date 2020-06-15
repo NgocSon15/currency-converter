@@ -1,3 +1,3 @@
 <div class="heading">
-	<h1>Currency Converter</h1>
+	<h1>Chuyển đổi tiền tệ</h1>
 </div>

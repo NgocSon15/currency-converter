@@ -1,9 +1,5 @@
 <div>
-	<form type="text" class="text">
-		<output> 
-			<?php
-				echo $amount2
-		 	?>	
-		</output>
+	<form>
+		<input type="text" class="textclass" value="<?php echo $amount2 ?>">
 	</form>
 </div>

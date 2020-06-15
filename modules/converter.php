@@ -24,7 +24,7 @@
 				</select>
 			</div>
 			<div>
-				<input type="text" id="from-text" class="text" name="input-text" value="<?php echo $amount1 ?>">
+				<input type="text" id="from-text" class="textclass" name="input-text" value="<?php echo $amount1 ?>">
 			</div>
 		</div>
 

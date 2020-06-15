@@ -1,11 +1,13 @@
+<div class = "heading">
+	<h2>Bảng tỷ giá tiền tệ</h2>
+</div>
 <div class="show_table">
-		<h1 class="h1">Bảng tỷ giá tiền tệ</h1>
 		<table class="tb" border="1px" style="border-collapse: collapse;">
 			<tr>
 				<th>STT</th>
 				<th>Quốc Gia </th>
 				<th>Đơn vị tiền</th>
-				<th>Giá đổi sang đồng VND</th>
+				<th>Giá quy đổi sang VND</th>
 			</tr>	
 			<?php
 				include('lib/database.php');

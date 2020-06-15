@@ -2,7 +2,6 @@
 <html lang="vi">
 <head>
 	<link rel="stylesheet" type="text/css" href="style/giaodien.css">
-	<title>Currency Converter</title>
 </head>
 <body>
 	<div class="wrapper">
